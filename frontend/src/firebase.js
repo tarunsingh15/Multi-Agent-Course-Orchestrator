@@ -3,7 +3,8 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB70D0FpRQNUwXrnivFFIVkPOxx7TzdXxw",
+  // Removing API key GitHub
+  apiKey: <GOOGLE_FIREBASE_API_KEY>, 
   authDomain: "amazing-math-473517-f9.firebaseapp.com",
   projectId: "amazing-math-473517-f9",
   storageBucket: "amazing-math-473517-f9.firebasestorage.app",
