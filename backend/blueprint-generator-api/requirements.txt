@@ -1,0 +1,8 @@
+# Web Server
+fastapi
+uvicorn
+pydantic
+
+# GCS & AI
+google-cloud-storage
+google-cloud-aiplatform

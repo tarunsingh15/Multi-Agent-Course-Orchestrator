@@ -1,0 +1,14 @@
+[
+  {
+    "origin": [
+      "https://react-frontend-536653873539.us-east4.run.app"
+    ],
+    "method": [
+      "PUT"
+    ],
+    "responseHeader": [
+      "Content-Type"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]

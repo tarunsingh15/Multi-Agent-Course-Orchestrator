@@ -1,0 +1,42 @@
+{
+  "course_title": "Introduction to Full-Stack Web Development",
+  "course_description": "This course covers the basics of web development, from front-end technologies and server-side programming to deploying full-stack applications on modern cloud platforms.",
+  "modules": [
+    {
+      "module_title": "Web Development Basics",
+      "estimated_minutes": 20,
+      "learning_objectives": [
+        "Identify the basic components of web development",
+        "Describe the roles of HTML, CSS, and JavaScript"
+      ],
+      "assessment_questions": [
+        "What are the basic technologies introduced for web development?",
+        "What is the purpose of HTML, CSS, and JavaScript in web development?"
+      ]
+    },
+    {
+      "module_title": "Server-Side Programming",
+      "estimated_minutes": 25,
+      "learning_objectives": [
+        "Define server-side programming",
+        "Identify Python and Flask as tools for server-side development"
+      ],
+      "assessment_questions": [
+        "What is server-side programming?",
+        "Which language and framework are mentioned for server-side programming?"
+      ]
+    },
+    {
+      "module_title": "Deploying Full-Stack Applications",
+      "estimated_minutes": 15,
+      "learning_objectives": [
+        "Describe the process of deploying a full-stack web application",
+        "Identify the role of modern cloud platforms in deployment"
+      ],
+      "assessment_questions": [
+        "What is the final step taught for a full-stack web application?",
+        "What kind of platforms are used for deploying modern web applications?"
+      ]
+    }
+  ]
+}

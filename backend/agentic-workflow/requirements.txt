@@ -1,0 +1,8 @@
+functions-framework==3.*
+google-cloud-storage==2.*
+google-cloud-firestore
+google-adk
+pydantic
+cloudevents>=1.9.0
+google-cloud-core
+httpx

@@ -1,0 +1,6 @@
+{
+  "pdf": "application/pdf",
+  "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "txt": "text/plain",
+  "pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+}

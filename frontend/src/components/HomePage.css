@@ -1,0 +1,102 @@
+:root {
+    --primary-dark: #1e1e1e;
+    --primary-bg: #111111;
+    --accent-purple: #a855f7;
+    --accent-purple-hover: #9333ea;
+    --accent-purple-light: #e9d5ff;
+    --neutral-gray: #d1d5db;
+    --light-white: #f9fafb;
+  }
+  .homepage-container {
+    color: var(--light-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .homepage-card {
+    background-color: var(--primary-dark);
+    padding: 3rem 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2c2c2c;
+  }
+  
+  .homepage-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--accent-purple);
+    margin-bottom: 1rem;
+  }
+  
+  .homepage-subtitle {
+    font-size: 1rem;
+    color: var(--neutral-gray);
+    margin-bottom: 2.5rem;
+  }
+  
+  .homepage-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .homepage-btn {
+    padding: 0.9rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--neutral-gray);
+    color: var(--light-white);
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+  }
+  
+  .homepage-btn:hover {
+    background-color: #222222;
+    border-color: var(--accent-purple);
+    color: var(--accent-purple);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);
+  }
+  .homepage-btn {
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .homepage-btn.blueprint::before {
+    content: \"📘 \";
+  }
+  .homepage-btn.settings::before {
+    content: \"⚙️ \";
+  }
+  .homepage-btn.upload::before {
+    content: \"📤 \";
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .homepage-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background-color: transparent;
+  border-color: var(--neutral-gray);
+  color: var(--neutral-gray);
+  box-shadow: none;
+}
+
+.homepage-btn:disabled:hover {
+  background-color: transparent;
+  border-color: var(--neutral-gray);
+  color: var(--neutral-gray);
+}

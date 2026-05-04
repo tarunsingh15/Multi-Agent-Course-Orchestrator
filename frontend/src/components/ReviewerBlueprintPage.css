@@ -1,0 +1,182 @@
+#root, body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #111111;
+}
+
+.reviewer-page-layout {
+  display: flex;
+  height: 100vh;
+  color: white;
+}
+
+/* Styling for the left sidebar */
+.reviewer-sidebar {
+  flex-basis: 250px; /* Sets the width of the sidebar */
+  flex-shrink: 0;
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  height: 100vh;
+  border-right: 1px solid #374151;
+  box-sizing: border-box;
+}
+
+/* Styling for module content, it's a scrollable area */
+.reviewer-main-content {
+  flex-grow: 1;
+  height: 100vh;
+  overflow-y: auto; /* make only the main content scroll */
+  box-sizing: border-box;
+}
+
+.profile-container {
+  top: 1rem;
+  z-index: 10;
+  padding: 1rem;
+  border: 1px solid #334155;
+  border-radius: 0.5rem;
+}
+
+.profile-toggle-btn svg {
+  stroke-width: 2;
+}
+
+.profile-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-toggle-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.blueprint-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.module-card {
+  border-radius: 1rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #374151;
+  text-align: left;
+}
+
+.module-card:nth-child(odd) {
+  background-color: #323232;
+}
+
+.module-card:nth-child(even) {
+  background-color: #1b1b1b;
+}
+
+.feedback-container {
+  position: sticky;
+  bottom: 0;
+  background-color: #111111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+/* Gradient for the feedback container */
+.feedback-container::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(to top, #111111, transparent);
+  pointer-events: none;
+}
+
+.feedback-left,
+.feedback-right {
+  flex: 1;
+}
+
+.feedback-center {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.feedback-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-msg {
+  margin-left: 1rem;
+}
+
+.feedback-input-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.feedback-textbox {
+  border-radius: 100px;
+  width: 100%;
+  height: 22px;
+  border: 1px solid #374151;
+  padding: 0.75rem 1rem;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  resize: none;
+  outline: none;
+}
+
+.feedback-textbox:focus {
+  border-color: #a855f7;
+}
+
+.approve-button {
+  background-color: var(--accent-purple);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.approve-button:hover {
+  background-color: #8b45d3;
+}
+
+.revise-button {
+  background-color: #eaeaea;
+  color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.revise-button:hover {
+  background-color: #d1d1d1;
+}

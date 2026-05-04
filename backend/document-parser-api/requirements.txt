@@ -1,0 +1,15 @@
+# Web Server
+fastapi
+uvicorn
+pydantic
+
+# GCS
+google-cloud-storage
+
+# Parsers (from doc_parser.py)
+nltk
+unstructured[pdf,docx,pptx]
+
+# RAG Implementation
+google-cloud-aiplatform
+numpy
