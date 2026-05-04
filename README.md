@@ -5,6 +5,7 @@ A production-grade event-driven, multi-agent AI orchestration microservices plat
 Moving beyond simple zero-shot prompts, this system implements an Orchestrator-Worker architecture. A central routing agent delegates complex cognitive tasks to specialized sub-agents (Blueprint Planning, RAG-assisted Lesson Writing, and Quiz Extraction). To ensure enterprise-level reliability and prevent hallucinations, the pipeline integrates an 'LLM-as-a-Judge' Evaluator agent that strictly verifies all generated content against the source material before state commits. Built with Python, FastAPI, and containerized for Google Cloud Platform.
 
 **Key Capabilities:**
+---------------------
 
 - **Agentic Orchestration**: A central state-manager that dynamically routes tasks to specialized cognitive worker agents.
 
