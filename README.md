@@ -12,6 +12,3 @@ Moving beyond simple zero-shot prompts, this system implements an Orchestrator-W
 - **Automated Quality Assurance**: Features an independent Evaluator API utilizing the Reflexion/Critic pattern to detect and reject LLM hallucinations.
 
 - **Asynchronous Event-Driven Backend**: Decoupled FastAPI and Node.js services communicating via state updates to handle heavy document parsing and long-running generation tasks without blocking the UI.
-
-
-https://github.com/tarunsingh15/Multi-Agent-Course-Orchestrator/blob/main/Project%20Demo.mov
