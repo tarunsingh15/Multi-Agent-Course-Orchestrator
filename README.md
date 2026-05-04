@@ -6,6 +6,7 @@ Moving beyond simple zero-shot prompts, this system implements an Orchestrator-W
 
 **Key Capabilities:**
 
+
 - **Agentic Orchestration**: A central state-manager that dynamically routes tasks to specialized cognitive worker agents.
 
 - **RAG-Grounded Generation**: Utilizes Retrieval-Augmented Generation to ensure all course content is strictly fact-based and tied to the uploaded source documents.
